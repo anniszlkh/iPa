@@ -1,0 +1,56 @@
+name: attend_track
+description: "Manage Your Attendances."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  geolocator: ^14.0.2
+  geocoding: ^2.1.6
+  flutter_background: ^1.1.0
+  flutter_background_service: ^5.0.5
+  flutter_background_service_android: ^6.0.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  launcher_name: ^1.0.2
+  flutter_launcher_icons: ^0.14.4
+
+launcher_name:
+  default: "AtTrack"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/attendtrack_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/attendtrack_icon.png
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/sfprotext-bold.ttf
+        - asset: assets/fonts/sfprotext-bolditalic.ttf
+        - asset: assets/fonts/sfprotext-heavy.ttf
+        - asset: assets/fonts/sfprotext-heavyitalic.ttf
+        - asset: assets/fonts/sfprotext-light.ttf
+        - asset: assets/fonts/sfprotext-lightitalic.ttf
+        - asset: assets/fonts/sfprotext-medium.ttf
+        - asset: assets/fonts/sfprotext-mediumitalic.ttf
+        - asset: assets/fonts/sfprotext-regular.ttf
+        - asset: assets/fonts/sfprotext-regularitalic.ttf
+        - asset: assets/fonts/sfprotext-semibold.ttf
+        - asset: assets/fonts/sfprotext-semibolditalic.ttf
